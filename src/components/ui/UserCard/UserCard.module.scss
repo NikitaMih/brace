@@ -1,0 +1,18 @@
+@import 'src/shared/breakpoints';
+
+.card {
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  width: 300px;
+
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.1);
+
+  @media (min-width: $maxMobile) {
+    width: 400px;
+  }
+}
+
+.email {
+  color: grey;
+}

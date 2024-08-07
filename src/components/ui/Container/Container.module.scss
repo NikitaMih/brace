@@ -1,0 +1,10 @@
+@import 'src/shared/breakpoints';
+
+.container {
+  padding: 10px;
+  text-align: center;
+
+  @media (min-width: $maxMobile) {
+    padding: 20px 100px;
+  }
+}

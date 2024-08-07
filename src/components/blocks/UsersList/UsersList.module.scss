@@ -1,0 +1,12 @@
+@import 'src/shared/breakpoints';
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+  @media (min-width: $maxMobile) {
+    gap: 15px;
+  }
+}
